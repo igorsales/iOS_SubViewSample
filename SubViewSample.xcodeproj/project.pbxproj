@@ -23,6 +23,9 @@
 		AB2B2AF915DD3DA100CEA481 /* ISFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2B2AF715DD3DA100CEA481 /* ISFirstViewController_iPad.xib */; };
 		AB2B2AFC15DD3DA100CEA481 /* ISSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2B2AFA15DD3DA100CEA481 /* ISSecondViewController_iPhone.xib */; };
 		AB2B2AFF15DD3DA100CEA481 /* ISSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2B2AFD15DD3DA100CEA481 /* ISSecondViewController_iPad.xib */; };
+		AB2B2B0615DD3DD400CEA481 /* ISHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2B2B0515DD3DD400CEA481 /* ISHeaderView.xib */; };
+		AB2B2B0C15DD3F4E00CEA481 /* ISHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2B2B0B15DD3F4E00CEA481 /* ISHeaderViewController.m */; };
+		AB2B2B0F15DD4A8600CEA481 /* ISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2B2B0E15DD4A8600CEA481 /* ISViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,17 +33,17 @@
 		AB2B2AD415DD3DA100CEA481 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB2B2AD615DD3DA100CEA481 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB2B2AD815DD3DA100CEA481 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB2B2ADC15DD3DA100CEA481 /* SubViewSample-Info.plist */ = {isa = PBXFileReference; path = "SubViewSample-Info.plist"; sourceTree = "<group>"; };
+		AB2B2ADC15DD3DA100CEA481 /* SubViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubViewSample-Info.plist"; sourceTree = "<group>"; };
 		AB2B2ADE15DD3DA100CEA481 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB2B2AE015DD3DA100CEA481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB2B2AE215DD3DA100CEA481 /* SubViewSample-Prefix.pch */ = {isa = PBXFileReference; path = "SubViewSample-Prefix.pch"; sourceTree = "<group>"; };
-		AB2B2AE315DD3DA100CEA481 /* ISAppDelegate.h */ = {isa = PBXFileReference; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		AB2B2AE215DD3DA100CEA481 /* SubViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		AB2B2AE315DD3DA100CEA481 /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
 		AB2B2AE415DD3DA100CEA481 /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
-		AB2B2AE615DD3DA100CEA481 /* ISFirstViewController.h */ = {isa = PBXFileReference; path = ISFirstViewController.h; sourceTree = "<group>"; };
+		AB2B2AE615DD3DA100CEA481 /* ISFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISFirstViewController.h; sourceTree = "<group>"; };
 		AB2B2AE715DD3DA100CEA481 /* ISFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISFirstViewController.m; sourceTree = "<group>"; };
 		AB2B2AE915DD3DA100CEA481 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		AB2B2AEB15DD3DA100CEA481 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		AB2B2AED15DD3DA100CEA481 /* ISSecondViewController.h */ = {isa = PBXFileReference; path = ISSecondViewController.h; sourceTree = "<group>"; };
+		AB2B2AED15DD3DA100CEA481 /* ISSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISSecondViewController.h; sourceTree = "<group>"; };
 		AB2B2AEE15DD3DA100CEA481 /* ISSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSecondViewController.m; sourceTree = "<group>"; };
 		AB2B2AF015DD3DA100CEA481 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		AB2B2AF215DD3DA100CEA481 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -48,6 +51,11 @@
 		AB2B2AF815DD3DA100CEA481 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ISFirstViewController_iPad.xib; sourceTree = "<group>"; };
 		AB2B2AFB15DD3DA100CEA481 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ISSecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		AB2B2AFE15DD3DA100CEA481 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ISSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		AB2B2B0515DD3DD400CEA481 /* ISHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISHeaderView.xib; sourceTree = "<group>"; };
+		AB2B2B0A15DD3F4E00CEA481 /* ISHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHeaderViewController.h; sourceTree = "<group>"; };
+		AB2B2B0B15DD3F4E00CEA481 /* ISHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHeaderViewController.m; sourceTree = "<group>"; };
+		AB2B2B0D15DD4A8600CEA481 /* ISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISViewController.h; sourceTree = "<group>"; };
+		AB2B2B0E15DD4A8600CEA481 /* ISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 				AB2B2AFA15DD3DA100CEA481 /* ISSecondViewController_iPhone.xib */,
 				AB2B2AFD15DD3DA100CEA481 /* ISSecondViewController_iPad.xib */,
 				AB2B2ADB15DD3DA100CEA481 /* Supporting Files */,
+				AB2B2B0515DD3DD400CEA481 /* ISHeaderView.xib */,
+				AB2B2B0A15DD3F4E00CEA481 /* ISHeaderViewController.h */,
+				AB2B2B0B15DD3F4E00CEA481 /* ISHeaderViewController.m */,
+				AB2B2B0D15DD4A8600CEA481 /* ISViewController.h */,
+				AB2B2B0E15DD4A8600CEA481 /* ISViewController.m */,
 			);
 			path = SubViewSample;
 			sourceTree = "<group>";
@@ -184,6 +197,7 @@
 				AB2B2AF915DD3DA100CEA481 /* ISFirstViewController_iPad.xib in Resources */,
 				AB2B2AFC15DD3DA100CEA481 /* ISSecondViewController_iPhone.xib in Resources */,
 				AB2B2AFF15DD3DA100CEA481 /* ISSecondViewController_iPad.xib in Resources */,
+				AB2B2B0615DD3DD400CEA481 /* ISHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +212,8 @@
 				AB2B2AE515DD3DA100CEA481 /* ISAppDelegate.m in Sources */,
 				AB2B2AE815DD3DA100CEA481 /* ISFirstViewController.m in Sources */,
 				AB2B2AEF15DD3DA100CEA481 /* ISSecondViewController.m in Sources */,
+				AB2B2B0C15DD3F4E00CEA481 /* ISHeaderViewController.m in Sources */,
+				AB2B2B0F15DD4A8600CEA481 /* ISViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

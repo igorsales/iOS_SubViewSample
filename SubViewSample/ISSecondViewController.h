@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ISViewController.h"
 
-@interface ISSecondViewController : UIViewController
+@interface ISSecondViewController : ISViewController
 
 @end
